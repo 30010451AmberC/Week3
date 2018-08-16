@@ -37,17 +37,21 @@ namespace while_loop_practise
             int i = int.Parse(Console.ReadLine());
             int start = 1;
 
+            //FOR LOOP
             for (start = 1; start<13; start++)
             {
                 Console.WriteLine($"{start}{i}{start*i}");
             }
 
+            //WHILE LOOP
             while (start < 13)
             {
                 Console.WriteLine($"{i}{start}{start*i}");
                 start++;
             }
 
+
+            //DO/WHILE LOOP
             do
             {
                 Console.WriteLine($"{i}{start}{start * i}");
